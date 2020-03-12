@@ -18,6 +18,8 @@ export class NavMenu extends Component<{},ISate> {
 
     handleClick = (e: any) => {
         console.log('click ', e);
+        
+        console.log(this.state)
         this.setState({
             current: e.key,
         });
