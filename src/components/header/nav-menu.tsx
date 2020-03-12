@@ -24,6 +24,7 @@ export class NavMenu extends Component<{},ISate> {
     };
 
     render() {
+        console.log(this.state)
         return (
             <Menu onClick={this.handleClick} selectedKeys={[this.state.current]} mode="horizontal">
                 <Menu.Item key="home">
