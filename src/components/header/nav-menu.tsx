@@ -27,8 +27,8 @@ export class NavMenu extends Component<{},ISate> {
 
     render() {
         console.log(this.state)
-        const name: string = 'sfasdf';
-        console.log(name)
+        const number: number = 1231;
+        console.log(number)
         console.log(this.state.current)
         console.log(this.state.current)
         return (
