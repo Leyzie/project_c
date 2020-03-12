@@ -26,6 +26,10 @@ export class NavMenu extends Component<{},ISate> {
     };
 
     render() {
+        console.log(this.state)
+        const name: string = 'sfasdf';
+        console.log(name)
+        console.log(this.state.current)
         console.log(this.state.current)
         return (
             <Menu onClick={this.handleClick} selectedKeys={[this.state.current]} mode="horizontal">
